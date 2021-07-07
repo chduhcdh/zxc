@@ -1,0 +1,304 @@
+body{
+    font:12px/1 "\u5b8b\u4f53",Tahoma,Geneva,sans-serif;
+    font-family:'SimSun';
+    background:url(../img/light.jpg) no-repeat;
+    background-size: cover;
+    margin:0;
+}
+
+.title{
+    padding-top: 1px;
+    margin-left: 50px;
+}
+
+h1{
+    color:pink;
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    width:100%;
+    height:260px;
+    background:url(../img/sha.jpg)  ;
+}
+
+nav{
+    width:100%;
+    height:100px;
+    background-color:mediumturquoise;
+}
+
+.navigation-section{
+    width:1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav{
+    width:450px;
+    height:100px;
+    float:left;
+    margin:0;
+    display:list-item;
+    list-style: none;
+    display: table-cell;
+    display: flex;
+}
+
+.nav-name{
+    width:auto;
+    height:50px;
+    line-height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav a{
+    width:100%;
+    font-size: 40px;
+    font-weight: bold;
+    color:lavender;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:block;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color:lavender;
+    background-color: lightcoral;
+}
+
+
+.container{
+    width:1800px;
+    height:auto;
+    margin:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add{
+    width:100%;
+    height:100px;
+    margin-bottom: 30px;
+}
+
+.add-1{
+    float:left;
+    width:500px;
+    height:70px;
+    background-color:tan;
+}
+
+.add-1 h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:slategray;
+    text-align: center;
+}
+
+.up{
+    width:100%;
+    height:500px;
+    margin-bottom:200px;
+}
+
+.pic{
+    width:500px;
+    height:100%;
+    float:left;
+    background: url(../img/cloud.jpg);
+}
+
+img{
+    width:400px;
+    height:400px;
+    border:rosybrown;
+   padding:50px;
+}
+
+.content{
+    height:100%;
+    width:1300px;
+    float:right;
+    background-color:snow;
+}
+
+ul{
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start:0px;
+    margin-inline-end:0px;
+    padding:0;
+    margin:0px;
+}
+
+.con{
+    height:auto;
+    width:auto;
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left: 100px;
+    line-height:2em;
+    display:list-item;
+    list-style: none;
+}
+
+p{
+    color:salmon;
+}
+
+
+.down{
+    width:100%;
+    height:1000px;
+    margin-bottom:60px;
+}
+
+.dream{
+    width:580px;
+    height:800px;
+    float:left;
+    background-color:salmon;
+    margin-right:40px;
+}
+  
+
+.finished{
+    width:560px;
+    height:800px;
+    float:left;
+    background-color: pink;
+    margin-right:40px;
+
+}
+
+.todo{
+    width:580px;
+    height:800px;
+    float:left;
+    background-color: plum;
+     
+}
+
+.tit1{
+    height:80px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.tit2 {
+    height:80px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+.tit3{
+    height:80px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+.tit1 p{
+    margin:0;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: mediumvioletred;
+    line-height: 80px;
+}
+
+.tit2 p{
+    margin:0;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color:palevioletred;
+    line-height: 80px;
+}
+
+.tit3 p{
+    margin:0;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color:palegoldenrod;
+    line-height: 80px;
+}
+
+.toal{
+    width:auto;
+    height:auto;
+    margin-left: 40px;
+
+}
+
+.to1{
+    height:auto;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.to2{
+    height:auto;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.to3{
+    height:auto;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.to1 p{
+    font-size: 35px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    color:slategray;
+    line-height: 40px;
+}
+
+.to2 p{
+    font-size: 35px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    color:hotpink;
+    line-height: 40px;
+}
+
+.to3 p{
+    font-size: 35px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    color:rosybrown;
+    line-height: 40px;
+}
+
+footer{
+    height:200px;
+    background-color:lightseagreen;
+    margin-top: 20px;
+}
+
+footer .title{
+    float: right;
+}
+
+
+
+
+
+ 
+   
